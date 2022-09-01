@@ -11,10 +11,13 @@ This collection of python notebooks is free software distributed under the BSD
 3-clause license, please see the file LICENSE for details
 ********************************************************************************
 
-This code is written in Python 3, and makes use of numpy, matplotlib, pandas, scipy,
-pickle, scikit learn, biopython, and seaborn. It is presented as a series of four
-Jupyter notebooks. We suggest installing the Anaconda distribution of python for
-scientific computing as one route to obtaining the necessary dependencies.
+This code is written in Python 3, and makes use of numpy (v.1.20.1 was used in development),
+matplotlib (3.3.4), pandas (1.2.4), scipy (1.6.2), pickle (0.7.5), scikit-learn (0.24.1),
+biopython (1.78), and seaborn (0.11.1).
+
+It is presented as a series of four Jupyter notebooks.
+We suggest installing the Anaconda distribution of python for scientific computing as
+one route to obtaining the necessary dependencies.
 
 The code provides an analysis of our DHFR deep mutational scanning data in three TYMS
 backgrounds (WT, Q33S, R166Q). The analysis starts with "counts" of each mutant for
