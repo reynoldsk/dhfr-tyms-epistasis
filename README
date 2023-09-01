@@ -13,11 +13,18 @@ This collection of python notebooks is free software distributed under the BSD
 
 This code is written in Python 3, and makes use of numpy (v.1.20.1 was used in development),
 matplotlib (3.3.4), pandas (1.2.4), scipy (1.6.2), pickle (0.7.5), scikit-learn (0.24.1),
-biopython (1.78), and seaborn (0.11.1).
+biopython (1.78), and seaborn (0.11.1). It has been tested on mac OS13, but has no special dependencies
+on hardware or OS. 
 
 It is presented as a series of four Jupyter notebooks.
 We suggest installing the Anaconda distribution of python for scientific computing as
 one route to obtaining the necessary dependencies.
+
+Once Anaconda has been installed, the Jupyter notebooks can be run following standard usage. Clicking 
+through each cell will repeat the calculations and generate the figures in the main text of 
+Nguyen et al. Most notebooks are expected to run on the order of a few minutes on a standard laptop 
+computer, however the global model fit in notebook 4 is expected to take order hours. For this reason, 
+we also provide the full model fit (for import) in a pickle database. 
 
 The code provides an analysis of our DHFR deep mutational scanning data in three TYMS
 backgrounds (WT, Q33S, R166Q). The analysis starts with "counts" of each mutant for
