@@ -1,0 +1,17 @@
+name: Nguyen_DHFRTSEpi
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - scikit-learn=0.24.1
+  - biopandas=0.4.1
+  - seaborn=0.11.1
+  - pandas=1.2.4
+  - numpy=1.20.0
+  - matplotlib=3.3.4
+  - pickleshare=0.7.5
+  - python=3.8.8
+  - scipy=1.6.2
+  - jupyter=1.0.0
+  - biopython=1.78
+prefix: /Users/kimreynol/anaconda3/envs/Nguyen_DHFRTSEpi
